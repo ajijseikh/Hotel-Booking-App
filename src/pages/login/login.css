@@ -1,0 +1,29 @@
+ .lInput{
+    display: flex;
+  justify-content: center;
+  margin-top: 20px;
+    gap: 10px;
+}
+
+
+
+.lInput{
+    height:30;
+    padding:10px;
+}
+
+.lButton{
+    border:none;
+    padding:10px 20px;
+    background-color: rgb(38, 0, 255);
+    color:azure;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.lButton.disabled{
+    background-color: blue;
+    cursor: not-allowed;
+
+} 
